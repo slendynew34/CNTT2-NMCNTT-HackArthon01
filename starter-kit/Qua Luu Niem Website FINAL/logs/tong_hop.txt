@@ -1,0 +1,16 @@
+=== TONG HOP LOGS ===
+PS C:\Users\X\Desktop\starter-kit\Qua Luu Niem Website FINAL> Get-Content logs/gift.log|Select-String "ERROR"
+
+2026-12-28 07:38:36 [ERROR] Khong tim thay trang /qua-tet (404)
+2026-12-28 07:44:36 [ERROR] Het thoi gian cho (timeout)
+2026-12-28 07:56:36 [ERROR] Khong tim thay trang /qua-tet (404)
+2026-12-28 08:05:36 [ERROR] Thanh toan bi tu choi
+2026-12-28 08:08:36 [ERROR] Thanh toan bi tu choi
+2026-12-28 08:17:36 [ERROR] Khong tim thay trang /qua-tet (404)
+2026-12-28 08:23:36 [ERROR] Het thoi gian cho (timeout)
+
+PS C:\Users\X\Desktop\starter-kit\Qua Luu Niem Website FINAL>  Get-Content logs/gift.log|Select-String "WARNING"
+
+2026-12-28 07:32:36 [WARNING] Anh mau qua dung luong lon
+2026-12-28 08:02:36 [WARNING] Anh mau qua dung luong lon
+2026-12-28 08:20:36 [WARNING] Don giao gap trong ngay
